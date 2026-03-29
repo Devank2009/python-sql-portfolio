@@ -13,5 +13,4 @@ I’m a Data Analyst who loves digging into **MySQL** databases and turning mess
 ### Why work with me?
 I don’t just "move data" around. I focus on building scripts that save you time. Instead of spending hours in Excel, you can just run my Python script and get your charts instantly. 
 
- ###For Refrence you can see
- [Python_Data_Basics.py] (chart_preview.png)
+ 
