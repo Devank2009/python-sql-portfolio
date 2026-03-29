@@ -32,3 +32,15 @@ plt.show()
 
 ### 📊 Project Preview
 ![City Analysis Chart](chart_preview.png)
+
+
+##  Database Management (SQL)
+I use SQL to extract specific insights from large datasets.
+
+**Query used to filter high-population cities:**
+
+SELECT * FROM cities 
+WHERE population > 30000;
+
+
+![SQL Query Result](sqloutput.png)
