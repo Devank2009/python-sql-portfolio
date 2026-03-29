@@ -13,5 +13,22 @@ I’m a Data Analyst who loves digging into **MySQL** databases and turning mess
 ### Why work with me?
 I don’t just "move data" around. I focus on building scripts that save you time. Instead of spending hours in Excel, you can just run my Python script and get your charts instantly. 
 
- For Refrnece 
+### 🐍 My Population Analysis Script
+Below is the code I used to generate the chart:
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+cities = ["Delhi", "Mumbai", "Chennai", "Bangalore"]
+population = [25000, 27000, 45000, 34000]
+
+s = pd.Series(population, index=cities)
+s.plot(kind='bar', width=0.5, color=["red", "green", "blue", "yellow"])
+
+plt.xlabel("Cities")
+plt.ylabel("Population")
+plt.show()
+
+### 📊 Project Preview
 ![City Analysis Chart](chart_preview.png)
